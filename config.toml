@@ -48,17 +48,20 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "About ME"
+      url = "blogA"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+      name = "My Internship Experience"
+      url = "blogs/blogB"
 
     [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "Presentation of Group Homework1"
+      url = "blogs/blogC"
 
+    [[params.navigation.links]]
+      name = "Presentation of Group Homework2"
+      url = "blogs/blogD"
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
     # code below if you need more links. Buttons work in the same way.
@@ -67,9 +70,9 @@ disqusShortname = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
+    #[[params.navigation.button1]]
+     # name = "Get Started"
+     # url = "blogs"
 
     # Button Style 2
     [[params.navigation.button2]]
@@ -80,7 +83,7 @@ disqusShortname = ""
   # Banner section
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
-    # the 'static/img' folder.
+    # the 'static/img' folder
     title = "Hi, my name is Danqing"
     subtitle = "This is my portfolio website."
     buttonText = "Get Started"
@@ -95,25 +98,25 @@ disqusShortname = ""
       title = "About ME"
      # subtitle = "Ipsum Dolor Sit Amet"
       image = "pic01.jpg"
-      url = "blogs/aliquam"
+      url = "blogs/blogA"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic02.jpg"
-      url = "blogs/tempus"
+      title = "My Internship Experience"
+      #subtitle = "Feugiat Amet Tempus"
+      image = "pic12.jpg"
+      url = "blogs/blogB"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
+      title = "Presentation of Group Homework1"
+      subtitle = "Replication Challenge"
       image = "pic03.jpg"
-      url = "blogs/magna"
+      url = "blogs/blogC"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
+      title = "Presentation of Group Homework2"
+      subtitle = "Excess Rentals in Tfl bike sharing"
+      image = "pic11.jpg"
+      url = "blogs/blogD"
 
     #[[params.tiles.showcase]]
      # title = "Consequat"
@@ -136,16 +139,16 @@ disqusShortname = ""
     # To add more blogs just copy and paste the code.
 
   # Section Type Two
-  [params.two]
-    enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+  #[params.two]
+    #enable = true
+   # title = "Massa libero"
+    #subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
+   # Mauris aliquet magna magna sed nunc rhoncus pharetra. 
+   # Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
+   # Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
+   # Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+   # buttonText = "Get Started"
+   # url = "blogs"
 
 
   # Contact section
